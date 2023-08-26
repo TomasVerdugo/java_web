@@ -1,0 +1,29 @@
+.fullscreen-container {
+    width: 100%; /* El 100% del ancho de la ventana del navegador */
+    height: 100vh; /* El 100% de la altura de la ventana del navegador */
+    background-color: lightgray; /* Cambia el color de fondo según tus necesidades */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y alto */
+    padding: 20px; /* Espaciado interno opcional */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-wrapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
